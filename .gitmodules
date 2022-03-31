@@ -1,0 +1,12 @@
+[submodule "CMCMakeModule"]
+	path = CMCMakeModule
+	url = https://github.com/hyzboy/CMCMakeModule.git
+[submodule "CMCore"]
+	path = CMCore
+	url = https://github.com/hyzboy/CMCore.git
+[submodule "CMPlatform"]
+	path = CMPlatform
+	url = https://github.com/hyzboy/CMPlatform
+[submodule "CMAudio"]
+	path = CMAudio
+	url = https://github.com/hyzboy/CMAudio.git
