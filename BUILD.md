@@ -22,6 +22,8 @@ finish step you can use "cmake" create project file with vcpkg toolchain:
 
 or use "cmake-gui" with "Specify toolchain file for cross-compiling."
 
+    please disable the "VULKAN_SUPPORT" option in CMake.
+
 #
 
 # 在Windows下编译工程
@@ -46,3 +48,5 @@ or use "cmake-gui" with "Specify toolchain file for cross-compiling."
     cmake . -DCMAKE_TOOLCHAIN_FILE=\????\vcpkg\scripts\buildsystems\vcpkg.cmake
 
 或是使用cmake-gui以图形界面形式创建，但请在第一个界面选择“Specify toolchain file for cross-compiling”并指定使用vcpkg.cmake做为工具链。
+
+如出现关于Vulkan的报错，请在CMAKE中关掉VULKAN_SUPPORT选项
